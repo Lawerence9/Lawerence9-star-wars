@@ -8,8 +8,10 @@ export const Home = () => {
 	const {store} = useContext(Context)
 
 	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!!</h1>
+		<div className="cover-container d-flex w-75 p-4 mx-auto flex-column">
+
+			<img src="https://starwars.chocobar.net/star-wars-back0.jpg" alt="" />
+			{/* <h1>Hello Rigo!!</h1>
 			<p>
 				<img src={rigoImageUrl} />
 			</p>
@@ -21,7 +23,7 @@ export const Home = () => {
 				<a href="https://start.4geeksacademy.com/starters/react-flask">
 					Read documentation
 				</a>
-			</p>
+			</p> */}
 		</div>
 	);
 };
